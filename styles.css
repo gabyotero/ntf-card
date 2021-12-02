@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  max-width: 340px;
+  margin: 0 auto;
+  margin-top: 7vh;
+}
+#container #card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 4px 10px #0c1729;
+}
+.main-text {
+  margin-top: 25px;
+}
+#main-img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#main-img:hover {
+  opacity: 0.6;
+}
+h1 {
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+h1:hover {
+  color: #01fdfb;
+}
+span,
+p {
+  color: #627794;
+  font-size: 18px;
+}
+#span-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5px;
+  border-bottom: 1px solid #627794;
+}
+#span-text1,
+#span-text2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.blue-text {
+  color: #01fdfb;
+  font-weight: bold;
+  line-height: 18px;
+}
+.time {
+  line-height: 18px;
+}
+.text-avatar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+.text-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.text-avatar #span-name {
+  color: white;
+  cursor: pointer;
+}
+.text-avatar #span-name:hover {
+  color: #01fdfb;
+}
